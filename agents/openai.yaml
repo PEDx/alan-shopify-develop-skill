@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alan Shopify Develop"
+  short_description: "Alan's Shopify section workflow"
+  default_prompt: "Use $alan-shopify-develop-skill to build or modify a Shopify theme section following Alan's section conventions."
