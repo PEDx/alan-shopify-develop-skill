@@ -100,6 +100,7 @@ Example:
 ## Figma Implementation
 
 - If the user provides a Figma URL or asks to match a design, use Figma MCP before implementing.
+- If a Figma design URL is provided but the design cannot be read through MCP, stop and wait for further user instructions instead of continuing implementation from assumptions.
 - Extract visual intent, spacing, typography, imagery, responsive layout, and component hierarchy from the design.
 - Implement with Tailwind classes first; use scoped stylesheet blocks only for schema-driven values or edge cases Tailwind cannot express cleanly.
 - If design tokens or reusable components exist in Figma/code, prefer matching them over inventing new values.
